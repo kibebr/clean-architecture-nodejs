@@ -1,0 +1,35 @@
+{
+  "name": "clean-architecture",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start-server": "nodemon dist/app.js",
+    "test": "jest testing/tests --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^4.0.1",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.5.7"
+  },
+  "jest": {
+    "verbose": false,
+    "preset": "@immowelt/jest-preset-node"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.9.6",
+    "@immowelt/jest-preset-node": "^2.1.0",
+    "@shelf/jest-mongodb": "^1.1.5",
+    "babel-jest": "^26.0.1",
+    "faker": "^4.1.0",
+    "jest": "^26.0.1",
+    "mongodb-memory-server": "^6.6.1",
+    "nodemon": "^2.0.4"
+  },
+  "type": "module"
+}
