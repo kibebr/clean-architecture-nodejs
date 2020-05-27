@@ -18,8 +18,9 @@ export default function buildMakeAfazer()
         }
 
         return Object.freeze({
+            getId: () => id,
             getTitle: () => title,
-            getColor: () => color,
+            getColor: () => color || "lightyellow",
             getDueDate: () => dueDate
         });
     };

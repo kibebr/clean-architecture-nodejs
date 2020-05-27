@@ -2,7 +2,7 @@ import makeAddUser from "./add_user.js";
 import makeRemoveUser from "./remove_user.js";
 import makeDisplayUser from "./display_user.js";
 import makeListUsers from "./list_users.js";
-import userDB from "../data-access/index.js";
+import userDB from "../../../db/index.js";
 
 const addUser = makeAddUser({userDB});
 const displayUser = makeDisplayUser({userDB});

@@ -3,7 +3,6 @@ import {MONGODB_URI} from "./config.js";
 
 (async function setupDB()
 {
-
     console.log(MONGODB_URI);
     console.log("setting up database...");
 
